@@ -43,10 +43,14 @@ body.dark-mode,body.dark-mode main *,.dark-mode #head{
   background: #383B62;
   color: #fcfcff
 }
-body.dark-mode, body.dark-mode main *,.dark-mode .block-features,.dark-mode .section-articles,.dark-mode .post-card,.dark-mode .pc-middle,.dark-mode .pc-bottom{
+// Darkmode colors
+body.dark-mode, body.dark-mode main *,.dark-mode .block-features,.dark-mode .section-articles,.dark-mode .post-card,.dark-mode .pc-middle,.dark-mode .pc-bottom,.section-features-detail{
   background: #383B62;
-  box-shadow: 0 6px 15px #16172757;
   color: #fcfcff
+}
+// Darkmode Shadow
+body.dark-mode, body.dark-mode main *,.dark-mode .block-features,.dark-mode .post-card{
+  box-shadow: 0 6px 15px #16172757;
 }
 // body.dark-mode, body.dark-mode main *,.dark-mode .section-articles{
 //   background: #383B62;

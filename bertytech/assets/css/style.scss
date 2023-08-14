@@ -43,73 +43,15 @@ body.dark-mode,body.dark-mode main *,.dark-mode #head{
     background: #383B62;
     color: #fcfcff
 }
-body.dark-mode, body.dark-mode main *,.dark-mode .block-features,.dark-mode .section-articles,.dark-mode .post-card,.dark-mode .pc-middle,.dark-mode .pc-bottom,.dark-mode .col-lg-4,.dark-mode .bg-white,.dark-mode .section-about.home .text-center{
+body.dark-mode, body.dark-mode main *,.dark-mode .block-features,.dark-mode .section-articles,.dark-mode .post-card,.dark-mode .pc-middle,.dark-mode .pc-bottom,.dark-mode .col-lg-4,.dark-mode .bg-white,.dark-mode .section-about.home .text-center,.dark-mode .col-lg-6,.dark-mode .block-products p{
   background: #383B62;
   color: #fcfcff
 }
 
 // Darkmode Shadow
-body.dark-mode, body.dark-mode main *,.dark-mode .block-features,.dark-mode .post-card,.dark-mode .block-about{
+body.dark-mode, body.dark-mode main *,.dark-mode .block-features,.dark-mode .post-card,.dark-mode .block-about,.dark-mode .block-products{
     box-shadow: 0 6px 15px #16172757;
 }
-
-// body.dark-mode, body.dark-mode main *,.dark-mode .section-articles{
-//   background: #383B62;
-// }
-
-// body.dark-mode a {
-//   color: #bd1550
-// }
-
-// body.dark-mode #head .title {
-//   color: #15ff00
-// }
-
-// body.dark-mode .navbar-default .navbar-toggle {
-//   background-color: #2d2d2d
-// }
-
-// body.dark-mode .navbar-default .navbar-toggle .icon-bar {
-//   background: #666
-// }
-
-// body.dark-mode .section-title a,body.dark-mode .entry-title a {
-//   color: #4c00ff
-// }
-
-// body.dark-mode .section-title a:hover,body.dark-mode .entry-title a:hover {
-//   color: #bd1550;
-//   opacity: .7
-// }
-
-// .dark-mode .language-switcher a:hover {
-//   color: maroon
-// }
-
-// body.dark-mode pre,body.dark-mode pre span,body.dark-mode code {
-//   background: #000!important
-// }
-
-// .dark-mode .pagination > li.active > a {
-//   color: #800
-// }
-
-// .dark-mode .pagination > li.active > a:hover {
-//   color: #800;
-//   background: none
-// }
-
-// .dark-mode .pagination > .disabled > span,.dark-mode .pagination > .disabled > a,.dark-mode .pagination > .disabled > a:hover,.dark-mode .pagination > .disabled > a:focus {
-//   color: #999;
-//   cursor: not-allowed;
-//   background-color: transparent;
-//   border-color: #ff00bf
-// }
-
-// .dark-mode .pagination > li > a:hover {
-//   color: #800;
-//   background: none
-// }
 
 /* override boostrap styling */
 body {

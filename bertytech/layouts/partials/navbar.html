@@ -14,6 +14,42 @@
           {{ $src := cond (eq (getenv "BERTY_IPFS") "true") $res.RelPermalink $res.Permalink }}
           <amp-script layout="container" src="{{ $src }}" style="opacity: 1;">
             <ul class="navbar-nav">
+                <div class="js-toggle-wrapper nav-item" style="height: 0px;">
+                  <div class="js-toggle">
+                    <div class="js-toggle-thumb"></div>
+                    <input class="js-toggle-screenreader-only" type="checkbox">
+                  </div>
+                </div>
+                <script>
+                  var body = document.body;
+                  var switcher = document.getElementsByClassName('js-toggle')[0];
+                
+                  //Click on dark mode icon. Add dark mode classes and wrappers. Store user preference through sessions
+                  switcher.addEventListener("click", function() {
+                    console.log("test");
+                    this.classList.toggle('js-toggle--checked');
+                    this.classList.add('js-toggle--focus');
+                    //If dark mode is selected
+                    if (this.classList.contains('js-toggle--checked')) {
+                      body.classList.add('dark-mode');
+                      //Save user preference in storage
+                      localStorage.setItem('darkMode', 'true');
+                    } else {
+                      body.classList.remove('dark-mode');
+                      setTimeout(function() {
+                        localStorage.removeItem('darkMode');
+                      }, 100);
+                    }
+                  })
+                
+                  //Check Storage. Keep user preference on page reload
+                  if (localStorage.getItem('darkMode')) {
+                    //body.classList.add('dark-mode');
+                    switcher.classList.add('js-toggle--checked');
+                    body.classList.add('dark-mode');
+                  }
+                
+                </script>
               <li class="nav-item dropdown">
                   <a class="nav-link" href="#" id="d-difference" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                       Our products<i class="far fa-chevron-down"></i>

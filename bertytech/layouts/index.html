@@ -15,14 +15,7 @@
       </div>
     </div>
     <!-- /.container -->
-    <script>
-      if (this.classList.contains('js-toggle--checked')) {
-        <img src="/img/wave_bottom_dark.svg" class="img img-wave-bottom" />
-      } else {
-        <img src="/img/wave_bottom.svg" class="img img-wave-bottom" />
-        };
-    </script>
-    <img src="/img/wave_bottom.svg" class="img img-wave-bottom" />
+    <img id=wave_bottom src="/img/wave_bottom.svg" class="img img-wave-bottom" />
     <div class="img img-planet-orange">
       {{ partial "img" (dict "ctx" . "src" "/img/planet_orange.png" "layout"
       "fill")}}
@@ -86,7 +79,8 @@
           //Click on dark mode icon. Add dark mode classes and wrappers. Store user preference through sessions
           switcher.addEventListener("click", function() {
             console.log("test");
-            console.log(switcher);
+            var img = document.getElementById("wave_bottom");
+            img.src="/img/wave_bottom_dark.svg";
             this.classList.toggle('js-toggle--checked');
             this.classList.add('js-toggle--focus');
             //If dark mode is selected
@@ -95,6 +89,8 @@
               //Save user preference in storage
               localStorage.setItem('darkMode', 'true');
             } else {
+              var img = document.getElementById("wave_bottom");
+              img.src="/img/wave_bottom.svg";
               body.classList.remove('dark-mode');
               setTimeout(function() {
                 localStorage.removeItem('darkMode');

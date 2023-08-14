@@ -15,6 +15,13 @@
       </div>
     </div>
     <!-- /.container -->
+    <script>
+      if (this.classList.contains('js-toggle--checked')) {
+        <img src="/img/wave_bottom_dark.svg" class="img img-wave-bottom" />
+      } else {
+        <img src="/img/wave_bottom.svg" class="img img-wave-bottom" />
+        };
+    </script>
     <img src="/img/wave_bottom.svg" class="img img-wave-bottom" />
     <div class="img img-planet-orange">
       {{ partial "img" (dict "ctx" . "src" "/img/planet_orange.png" "layout"
@@ -79,6 +86,7 @@
           //Click on dark mode icon. Add dark mode classes and wrappers. Store user preference through sessions
           switcher.addEventListener("click", function() {
             console.log("test");
+            console.log(switcher);
             this.classList.toggle('js-toggle--checked');
             this.classList.add('js-toggle--focus');
             //If dark mode is selected

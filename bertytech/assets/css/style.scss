@@ -43,13 +43,13 @@ body.dark-mode,body.dark-mode main *,.dark-mode #head{
     background: #383B62;
     color: #fcfcff
 }
-body.dark-mode, body.dark-mode main *,.dark-mode .block-features,.dark-mode .section-articles,.dark-mode .post-card,.dark-mode .pc-middle,.dark-mode .pc-bottom{
+body.dark-mode, body.dark-mode main *,.dark-mode .block-features,.dark-mode .section-articles,.dark-mode .post-card,.dark-mode .pc-middle,.dark-mode .pc-bottom,.dark-mode .col-lg-4,.dark-mode .bg-white,.dark-mode .section-about.home .text-center{
   background: #383B62;
   color: #fcfcff
 }
 
 // Darkmode Shadow
-body.dark-mode, body.dark-mode main *,.dark-mode .block-features,.dark-mode .post-card{
+body.dark-mode, body.dark-mode main *,.dark-mode .block-features,.dark-mode .post-card,.dark-mode .block-about{
     box-shadow: 0 6px 15px #16172757;
 }
 

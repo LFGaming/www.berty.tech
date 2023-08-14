@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="11501px" height="4103px" viewBox="0 0 11501 4103" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <path d="M11501 0L11501 0L11501 4103L0 4103L0 0L11501 0Z" id="path_1" />
+    <clipPath id="clip_1">
+      <use xlink:href="#path_1" clip-rule="evenodd" fill-rule="evenodd" />
+    </clipPath>
+  </defs>
+  <g id="wave_bottom" clip-path="url(#clip_1)">
+    <path d="M11501 0L11501 0L11501 4103L0 4103L0 0L11501 0Z" id="wave_bottom" fill="none" stroke="none" />
+    <g id="Page-1" transform="translate(-518.6141 952.91254)">
+      <path d="M0 0C597.038 994.893 1178.04 1569.36 1743.01 1723.4C2702.99 1985.13 3083.33 1416.09 4770.09 1416.09C6456.85 1416.09 6608.58 2345.69 8258.51 2479.81C9122.83 2550.06 10556 1737.74 12558.1 42.8477L12231.4 4062.98L478.903 4062.98L0 0L0 0Z" id="light" fill="#6259E0" fill-opacity="0.078431375" fill-rule="evenodd" stroke="none" />
+      <path d="M137.067 1303.17C638.131 1700.19 1171.15 1975.72 1736.12 2129.76C2696.09 2391.5 3035.14 1603.29 4721.9 1603.29C6408.66 1603.29 6489.56 2385.95 8139.49 2520.06C9003.81 2590.32 10333 2107.35 12127.2 1071.16L12127.2 4166.39L374.689 4166.39L137.067 1303.17L137.067 1303.17Z" id="purple" fill="#4A3798" fill-rule="evenodd" stroke="none" />
+      <path d="M102.163 1300.11C624.021 1848.15 1167.43 2199.19 1732.41 2353.23C2692.38 2614.96 3036.04 1873.81 4722.8 1873.81C6409.56 1873.81 6433.52 2490.93 8083.45 2625.04C8947.77 2695.3 10284.1 2328.43 12092.3 1524.44L12092.3 4333.34L339.786 4333.34L102.163 1300.11L102.163 1300.11Z" id="bg-white" fill="#383B62" fill-rule="evenodd" stroke="none" />
+    </g>
+  </g>
+</svg>
